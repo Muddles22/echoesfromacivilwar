@@ -1,2 +1,4 @@
-# User-agent: *
+User-agent: *
 # Disallow: https://www.echoesfromacivilwar.com
+
+Sitemap: https://www.echoesfromacivilwar.ie/sitemap.xml
