@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: https://www.echoesfromacivilwar.com/fc.html
+Disallow: https://www.echoesfromacivilwar.ie/fc.html
 
 Sitemap: https://www.echoesfromacivilwar.ie/sitemap.xml
