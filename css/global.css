@@ -1,1 +1,66 @@
+.eventIcons{
+    /* margin-top: 0.5rem; */
+}
 
+a.upcomingEventLinks:link{
+    text-decoration:none;
+    font-weight:bold;
+    color:#212529;
+}
+
+a.upcomingEventLinks:active{
+    color:#212529;
+}
+
+a.upcomingEventLinks:visited{
+    color:#212529;
+}
+
+a.upcomingEventLinks:hover{
+    color:#484c4f;
+}
+
+a.eventLinks:link{
+    text-decoration:none;
+    font-weight:bold;
+    color:#ffffff;
+}
+
+a.eventLinks:hover{
+    color:#484c4f;
+}
+
+a.universeTicketButton:link{
+    text-decoration:none;
+    font-weight:bold;
+    color:#000000;
+}
+
+a.universeTicketButton:visited{
+    color:#212529;
+}
+
+a.universeTicketButton:hover{
+    color:#5c5648;
+}
+
+a.footerLinks{
+    color:#212529;
+    text-decoration:none;
+}
+
+a.footerLinks:hover{
+    color:#acaac0;
+}
+
+#emailFormLink a{
+    color:#ffffff;
+}
+
+i.paymentMethodIcons{
+    font-size:1.75em;
+}
+
+i.commonPaymentMethods{
+    font-size:1.5em;
+}

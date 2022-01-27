@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: https://www.echoesfromacivilwar.ie/fc.html
+Disallow: https://www.echoesfromacivilwar.ie/reviews_testing_page.html
 
 Sitemap: https://www.echoesfromacivilwar.ie/sitemap.xml
