@@ -124,7 +124,26 @@
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
-   <script>
+
+<!-- To display an automatic slideshow -->
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+} </script>
+   
+ <!-- To display a manual slideshow as in user must click arrows to slide images-->
+ <!-- <script>
    let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -137,6 +156,7 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
+</script>
 
 function showSlides(n) {
   let i;
@@ -153,6 +173,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
-   </script>
+   </script> -->
+ 
   </body>
  </html>
