@@ -73,9 +73,11 @@ i.commonPaymentMethods{
     background-size: cover;
     background-image: url('img/book_in_hand_compressed.jpg');
 }
-.webp .bg-img-sec-bookInHand {
+
+/*.webp .bg-img-sec-bookInHand {
     background-image: url('img/webp/book_in_hand_compressed.webp');
 }
+
 .avif .bg-img-sec-bookInHand {
     background-image: url('img/avif/book_in_hand_compressed.avif');
-}
+}*/
