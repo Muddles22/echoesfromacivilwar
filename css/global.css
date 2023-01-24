@@ -64,3 +64,18 @@ i.paymentMethodIcons{
 i.commonPaymentMethods{
     font-size:1.5em;
 }
+
+// Backgorund images used within the sections
+   most browser pre 2021: CSS avif/webp background image //
+.bg-img-sec-bookInHand {
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('img/book_in_hand_compressed.jpg');
+}
+.webp .bg-img-sec-bookInHand {
+    background-image: url('img/webp/book_in_hand_compressed.webp');
+}
+.avif .bg-img-sec-bookInHand {
+    background-image: url('img/avif/book_in_hand_compressed.avif');
+}
