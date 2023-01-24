@@ -71,13 +71,13 @@ i.commonPaymentMethods{
     height: 30rem;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('img/book_in_hand_compressed.jpg');
+    background-image: url('.img/book_in_hand_compressed.jpg');
 }
 
-/*.webp .bg-img-sec-bookInHand {
-    background-image: url('img/webp/book_in_hand_compressed.webp');
+.webp .bg-img-sec-bookInHand {
+    background-image: url('.img/webp/book_in_hand_compressed.webp');
 }
 
 .avif .bg-img-sec-bookInHand {
-    background-image: url('img/avif/book_in_hand_compressed.avif');
-}*/
+    background-image: url('.img/avif/book_in_hand_compressed.avif');
+}
