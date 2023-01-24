@@ -65,8 +65,8 @@ i.commonPaymentMethods{
     font-size:1.5em;
 }
 
-// Backgorund images used within the sections
-   most browser pre 2021: CSS avif/webp background image //
+/* Backgorund images used within the sections
+   Should work for most browser pre 2021: CSS avif/webp background image */
 .bg-img-sec-bookInHand {
     height: 30rem;
     background-repeat: no-repeat;
