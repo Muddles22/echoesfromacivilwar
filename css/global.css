@@ -85,7 +85,7 @@ i.commonPaymentMethods{
         url("demo-assets/webp.webp") 1x,
         url("demo-assets/png.png") 1x
     );
-    height: 240px;
+    height: 30rem;
     background-repeat: no-repeat;
     background-size: cover;
 }
