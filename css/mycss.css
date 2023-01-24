@@ -4,15 +4,15 @@
 }
 
 /* most browser pre 2021: CSS avif/webp background image */ 
-.background-section-bookInHand {
+.bg-img-sec-bookInHand {
     height: 30rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('img/jpg/book_in_hand_compressed.jpg');
 }
-.webp .background-section-bookInHand {
+.webp .bg-img-sec-bookInHand {
     background-image: url('img/webp/book_in_hand_compressed.webp');
 }
-.avif .background-section-bookInHand {
+.avif .bg-img-sec-bookInHand {
     background-image: url('img/avif/book_in_hand_compressed.avif');
 }
