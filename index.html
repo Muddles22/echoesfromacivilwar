@@ -14,7 +14,8 @@
 	<script src="https://kit.fontawesome.com/94b48e21e4.js" crossorigin="anonymous" defer></script>
 	
 	<!-- Bootstrap's specific general free icon set-->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+	<!-- This is loaded asynrously to allow page render/draw/display quicker -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" media="print" onload="this.media='all'">
 		
 	<link rel="icon" href="favicon.ico" type="image/x-icon" />
 	<link rel="apple-touch-icon" href="/img/apple-touch-icon/touch-icon-iphone.png" />
@@ -23,7 +24,7 @@
         <link rel="apple-touch-icon" sizes="144x144" href="" />
 		
 	<!-- CSS sheet not in use.... yet -->
-    	<link rel="stylesheet" href="css/normalize.css" />
+    	<!-- <link rel="stylesheet" href="css/normalize.css" /> -->
 
     	<!-- My CSS edits -->
     	<link rel="stylesheet" href="css/global.css" />
