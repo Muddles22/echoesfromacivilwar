@@ -102,8 +102,8 @@ i.commonPaymentMethods{
         url("../img/png/linedpaper.png") 1x
     );
     height: 30rem;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    /* background-size: cover; */
 }
 
 
@@ -111,8 +111,8 @@ i.commonPaymentMethods{
 /* Top opening section */
 .bg-img-sec-bookInHand {
     height: 30rem;
-    background-repeat: repeat;
-    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url('../img/jpg/book_in_hand_compressed.jpg');
 }
 
