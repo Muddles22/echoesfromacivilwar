@@ -127,8 +127,8 @@ i.commonPaymentMethods{
 /* Author section */
 .bg-img-sec-author{
     height: 30rem;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    /* background-size: cover; */
     background-image: url('../img/png/linedpaper.png');
 }
 
